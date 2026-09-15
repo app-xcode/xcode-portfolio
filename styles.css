@@ -2,14 +2,12 @@
    FINAL DESK + ACTOR RESPONSIVE OVERRIDE
    ========================================================= */
 
-/* DESK BASE */
 .desk-wrap {
   position: absolute;
   z-index: 9;
   bottom: -1%;
 }
 
-/* DESKTOP 821px+ */
 @media (min-width: 821px) {
   .desk-wrap {
     width: 100%;
@@ -19,7 +17,6 @@
   }
 }
 
-/* DESKTOP MEDIUM 821px–1200px */
 @media (min-width: 821px) and (max-width: 1200px) {
   .desk-wrap {
     width: 126vw;
@@ -27,22 +24,20 @@
   }
 }
 
-/* TABLET 481px–820px */
 @media (min-width: 481px) and (max-width: 820px) {
   .desk-wrap {
     width: 128vw;
     left: 50%;
-    bottom: -8%;
+    bottom: -10%;
     transform: translateX(-50%);
     z-index: 9;
   }
 }
 
-/* PHONE ≤480px */
 @media (max-width: 480px) {
   .desk-wrap {
     width: 175vw;
-    bottom: -10%;
+    bottom: -9%;
     left: -50%;
   }
 
@@ -52,7 +47,6 @@
   }
 }
 
-/* SMALL PHONE ≤360px */
 @media (max-width: 360px) {
   .actor-wrap {
     width: 96vw;
