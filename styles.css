@@ -67,3 +67,9 @@
     top: 35px;
   }
 }
+
+@media (max-width: 480px) {
+  .script-title {
+    display: none;
+  }
+}
