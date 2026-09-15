@@ -15,7 +15,7 @@
   .hero-visual{position:absolute;left:0;right:0;top:270px;bottom:auto;height:565px;z-index:5;overflow:hidden}
   .hero-visual .visual-vignette{z-index:18;pointer-events:none;background:radial-gradient(ellipse at center,transparent 30%,#0009 100%)}
   .orbit-system{width:96vw;height:96vw;left:50%;top:51%;z-index:1;opacity:.86}.orbit{border-color:#fff4}.orbit:after{border-color:#fff2}.orbit-dot{width:5px;height:5px}
-  .actor-wrap{width:96vw;left:50%;bottom:0;z-index:8;transform:translateX(-50%)}.actor{width:100%;height:auto}
+  .actor-wrap{width:67vw;left:50%;bottom:0;z-index:8;transform:translateX(-50%)}.actor{width:100%;height:auto}
   .desk-wrap{width:128vw;left:50%;bottom:-2%;transform:translateX(-50%);z-index:9}.desk{width:100%;height:auto}
   .skill-card{transform:scale(.48);transform-origin:center;gap:9px;z-index:12}.skill-icon{width:70px;height:70px;font-size:24px}.skill-card h3{font-size:11px}.skill-card p{font-size:9px;line-height:1.45}
   .card-web{left:35%;top:2%}.card-mobile{left:-4%;top:27%}.card-design{left:-4%;top:53%}.card-iot{left:67%;top:28%}.card-electronics{left:68%;top:54%}
