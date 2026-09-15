@@ -1,0 +1,64 @@
+/* Mobile hero refinement: keeps the desktop design intact while matching the supplied mobile reference. */
+@media (max-width:820px){
+  .hero{min-height:1240px;height:1240px;overflow:hidden;padding:0}
+  .nav{height:76px;padding:0 22px;background:linear-gradient(#06070af5,transparent)}
+  .brand span{font-size:30px}.mobile-menu{font-size:28px;padding:8px}
+  .hero-copy{position:absolute;left:0;right:0;top:102px;width:auto;height:1030px;padding:0 24px;z-index:20;pointer-events:none}
+  .script-title{position:absolute;right:20px;top:205px;margin:0;font-size:42px;line-height:.82;letter-spacing:-1px;transform:rotate(-7deg);z-index:22}
+  .hero-index{display:none}
+  .intro{position:absolute;left:24px;right:24px;top:0;margin:0;max-width:none}
+  .eyebrow{font-size:10px;letter-spacing:5px;margin-bottom:10px}
+  .intro h1{font-size:58px;line-height:.9;letter-spacing:-3px;margin:0}
+  .roles{font-size:9px;letter-spacing:1.5px;white-space:nowrap;margin-top:10px}
+  .roles b{margin:0 5px}
+  .lead{font-size:15px;line-height:1.45;max-width:330px;margin-top:22px}
+  .hero-buttons{position:absolute;left:24px;right:24px;top:900px;display:grid;grid-template-columns:1fr 1fr;gap:10px;z-index:30;pointer-events:auto}
+  .hero-buttons a{min-height:58px;justify-content:center;padding:12px 15px;font-size:13px;gap:10px;text-align:center}
+  .primary-btn{box-shadow:0 10px 35px #0008}
+  .ghost-btn{display:inline-flex;align-items:center}
+  .stats{position:absolute;left:24px;right:24px;top:986px;margin:0;display:grid;grid-template-columns:repeat(3,1fr);z-index:30}
+  .stats>div{padding:0 12px;text-align:center;border-left:1px solid var(--line)}
+  .stats>div:first-child{padding-left:0;border:0}
+  .stats strong{font-size:25px;line-height:1.1}.stats span{font-size:10px;line-height:1.45}
+  .hero-visual{position:absolute;left:0;right:0;top:330px;bottom:auto;height:560px;z-index:5;overflow:hidden}
+  .hero-visual .visual-vignette{z-index:18;pointer-events:none;background:radial-gradient(ellipse at center,transparent 30%,#0008 100%)}
+  .orbit-system{width:108vw;height:108vw;left:50%;top:52%;z-index:1;opacity:.9}
+  .orbit{border-color:#fff5}.orbit:after{border-color:#fff2}
+  .orbit-dot{width:5px;height:5px}
+  .actor-wrap{width:106vw;left:50%;bottom:-3%;z-index:8}
+  .actor{width:100%;height:auto}
+  .desk-wrap{width:145vw;left:50%;bottom:-4%;transform:translateX(-50%);z-index:9}
+  .desk{width:100%;height:auto}
+  .skill-card{transform:scale(.53);transform-origin:center;gap:10px;z-index:12}
+  .skill-icon{width:72px;height:72px;font-size:25px}
+  .skill-card h3{font-size:12px}.skill-card p{font-size:10px;line-height:1.45}
+  .card-web{left:35%;top:4%}.card-mobile{left:-5%;top:29%}.card-design{left:-6%;top:54%}.card-iot{left:65%;top:31%}.card-electronics{left:66%;top:57%}
+  .floating-tech,.quote,.side-note{display:none}
+  .value-bar{position:absolute;left:18px;right:18px;bottom:62px;height:82px;border-radius:24px;grid-template-columns:repeat(4,1fr);padding:8px 10px;z-index:35;gap:0}
+  .value-bar article{display:flex!important;flex-direction:column;justify-content:center;text-align:center;gap:5px;min-width:0;padding:0!important;border:0!important}
+  .value-bar article>i{width:34px;height:34px;flex:0 0 34px;font-size:12px}
+  .value-bar b{font-size:9px;line-height:1.1}.value-bar span{display:none}
+  .value-bar .value-next{display:none}
+  .footer-meta{left:22px;right:22px;bottom:15px;z-index:40;display:flex;justify-content:center}
+  .socials{gap:14px;align-items:center}.socials small,.location{display:none}
+  .content-section{min-height:auto;padding:100px 24px 80px}.section-heading{margin-top:40px;gap:12px}.section-heading h2{font-size:50px;letter-spacing:-3px}.section-copy{margin:38px 0 45px;line-height:1.7}.about-grid,.projects-grid{grid-template-columns:1fr;margin:0}.skill-list{margin:55px 0 0}.skill-list>div{grid-template-columns:40px 1fr;padding:22px 0}.skill-list p{grid-column:2;margin-top:5px}.contact-wrap{margin:55px 0 0;display:block}.contact-wrap .primary-btn{margin-top:35px}
+}
+@media(max-width:480px){
+  .hero{min-height:1190px;height:1190px}
+  .hero-copy{top:96px}
+  .script-title{top:190px;right:18px;font-size:39px}
+  .intro h1{font-size:54px}.lead{font-size:14px;max-width:300px}
+  .hero-visual{top:325px;height:535px}
+  .orbit-system{width:112vw;height:112vw;top:51%}
+  .actor-wrap{width:111vw;bottom:-2%}.desk-wrap{width:155vw;bottom:-5%}
+  .skill-card{transform:scale(.48)}
+  .card-web{left:33%;top:3%}.card-mobile{left:-10%;top:28%}.card-design{left:-10%;top:53%}.card-iot{left:66%;top:30%}.card-electronics{left:66%;top:55%}
+  .hero-buttons{top:842px;grid-template-columns:1fr 1fr}.hero-buttons a{min-height:54px;font-size:12px;padding:10px 8px}
+  .stats{top:922px}.stats strong{font-size:23px}.stats span{font-size:9px}
+  .value-bar{bottom:48px;height:76px;left:14px;right:14px}
+  .footer-meta{bottom:10px}
+}
+@media(max-width:360px){
+  .hero{min-height:1130px;height:1130px}.intro h1{font-size:49px}.roles{font-size:8px}.script-title{font-size:35px;top:185px}.hero-visual{top:315px;height:505px}.actor-wrap{width:118vw}.desk-wrap{width:165vw}.hero-buttons{top:800px}.stats{top:875px}.value-bar{bottom:42px}.content-section{padding-left:18px;padding-right:18px}
+}
+@media(prefers-reduced-motion:reduce){.orbit{animation:none!important}.core-glow,.floating-tech{animation:none!important}}
