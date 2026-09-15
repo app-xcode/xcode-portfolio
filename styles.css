@@ -60,3 +60,10 @@
 .skill-card .card-iot {
   z-index: 5;
 }
+
+@media (min-width: 481px) and (max-width: 820px) {
+  .script-title {
+    right: 20px;
+    top: 35px;
+  }
+}
