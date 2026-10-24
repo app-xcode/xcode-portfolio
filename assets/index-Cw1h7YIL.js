@@ -274,7 +274,7 @@ Error generating stack: `+e.message+`
         max-[1000px]:w-6/12\r
         max-[646px]:w-7/12\r
         max-[480px]:w-13/12\r
-      `,children:(0,x.jsx)(`img`,{src:`/src/assets/aktor.webp`,alt:`Developer`,className:`block w-full`})})}function ie(){return(0,x.jsx)(`div`,{className:`\r
+      `,children:(0,x.jsx)(`img`,{src:`/aktor.webp`,alt:`Developer`,className:`block w-full`})})}function ie(){return(0,x.jsx)(`div`,{className:`\r
         absolute\r
         z-[9]\r
         bottom-[-5%]\r
@@ -283,7 +283,7 @@ Error generating stack: `+e.message+`
         max-[480px]:w-28/12\r
          -translate-x-1/2\r
            left-[50%]\r
-      `,children:(0,x.jsx)(`img`,{src:`/src/assets/desk.webp`,alt:``,className:`block w-full`})})}function ae({className:e=``,children:t}){return(0,x.jsx)(`div`,{className:`
+      `,children:(0,x.jsx)(`img`,{src:`/desk.webp`,alt:``,className:`block w-full`})})}function ae({className:e=``,children:t}){return(0,x.jsx)(`div`,{className:`
         side-note
         absolute
         z-[13]
